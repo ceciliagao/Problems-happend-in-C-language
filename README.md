@@ -1,2 +1,1 @@
-# Problems-happend-in-C-language
-error: 'for' loop initial declarations are only allowed in C99 mode 
+This is a fiels that recorded the things when I play with C
