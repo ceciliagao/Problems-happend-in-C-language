@@ -1,0 +1,2 @@
+error: 'for' loop initial declarations are only allowed in C99 mode
+ note: use option -std=c99 or -std=gnu99 to compile your code
