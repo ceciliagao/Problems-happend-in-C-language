@@ -1,0 +1,14 @@
+#include <stdio.h>/*standard buffered input&output*/
+#include <stdlib.h> //size_t, wchar_t, div_t, ldiv_t  lldiv_t
+
+int main(){
+    //for (初始化语句; 条件语句; 控制语句)
+    for(float y = 1.5f; y > -1.5f; y -= 0.1f){
+        for(float x = -1.5f; x < 1.5f; x +=0.05f){
+                float a = x*x + y*y -1 ;
+                putchar(a*a*a- x*x*y*y*y <= 0.0f ?'*':' ');  //  empty chacracter constant----careful the space btw ' '
+            }
+            putchar('\n');
+        }
+    return 0;
+}
